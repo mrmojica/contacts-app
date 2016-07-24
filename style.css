@@ -1,12 +1,17 @@
 body {
 	margin: 0 auto;
 	width: 500px;
+	
 
+}
+
+.detail-field .contacts-field {
+	display: inline-block;
+	position: absolute;
 
 }
 
 .detail-field {
-	position:absolute;
-	display: inline-block;
 	float: right;
+
 }
