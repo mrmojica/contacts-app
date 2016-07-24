@@ -1,0 +1,12 @@
+body {
+	margin: 0 auto;
+	width: 500px;
+
+
+}
+
+.detail-field {
+	position:absolute;
+	display: inline-block;
+	float: right;
+}

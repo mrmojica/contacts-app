@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacts Application</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="title">Contacts</h1>
+	<form id="contacts-form">
+	<div class='item-text'>
+		<label>First Name</label>
+		<div class='field'>
+		<input id="firstName"type='text' name="first-name">
+		</div>
+	</div>
+	<div class='item-text'>
+		<label>Last Name</label>
+		<div class='field'>
+		<input id="lastName" type='text' name="last-name">
+		</div>
+	</div>
+	<div class='item-text'>
+		<label>Phone Number</label>
+		<div class='field'>
+		<input id="phoneNumber" type='text' name="phone-number">
+		</div>
+	</div>
+	<div class='item-text'>
+		<label>Street</label>
+		<div class='field'>
+		<input id="street" type='text' name="street">
+		</div>
+	</div>
+	<div class='item-text'>
+		<label>City</label>
+		<div class='field'>
+		<input id="city" type='text' name="city">
+		</div>
+	</div>
+	<div class='item-text'>
+		<label>State</label>
+		<div class='field'>
+		<input id="state" type='text' name="state">
+		</div>
+	</div>
+	<button id="add-button" type="submit">Add</button>
+		
+</form>
+<section class="contacts-field">
+	<div class="display-contact">
+		<h2>Contacts List</h2>
+		<ul class="contacts-list">
+			
+			
+		</ul>
+	</div>
+
+
+</section>
+<section class="detail-field" >
+	<div class="display-info">
+		<ul class="contacts-detail">
+			<li class="firstName" contenteditable='true'>First Name</li>
+			<li class="lastName" contenteditable='true'>Last Name</li>
+			<li class="phoneNumber" contenteditable='true'>Phone Number</li>
+			<li class="street" contenteditable='true'>Street</li>
+			<li class="city" contenteditable='true'>City</li>
+			<li class="state" contenteditable='true'>state</li>
+			
+		</ul>
+	</div>
+
+
+</section>
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
